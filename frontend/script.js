@@ -162,7 +162,7 @@
     submitBtn.disabled = true;
 
     try {
-      const res = await fetch('/contact', {
+      const res = await fetch('https://portfolio-project-2-03a7.onrender.com/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, message }),
